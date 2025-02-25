@@ -1096,7 +1096,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66450899-c89b-4531-8cc0-ea55174b704f")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR062"
 			(at 137.16 130.81 0)
 			(effects
 				(font
@@ -1146,11 +1146,11 @@
 		(instances
 			(project ""
 				(path "/eb904614-38ff-4497-bc19-593801afccc5/20720b4c-26bd-4017-891c-b78b41525f4b"
-					(reference "#PWR065")
+					(reference "#PWR062")
 					(unit 1)
 				)
 				(path "/eb904614-38ff-4497-bc19-593801afccc5/d5650c90-80e2-4a62-9769-29a8f78adcb5"
-					(reference "#PWR067")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -1166,7 +1166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "824c924b-e3b8-4a24-915b-6e96944aa51e")
-		(property "Reference" "D10"
+		(property "Reference" "D12"
 			(at 140.97 82.8674 90)
 			(effects
 				(font
@@ -1220,11 +1220,11 @@
 		(instances
 			(project ""
 				(path "/eb904614-38ff-4497-bc19-593801afccc5/20720b4c-26bd-4017-891c-b78b41525f4b"
-					(reference "D10")
+					(reference "D12")
 					(unit 1)
 				)
 				(path "/eb904614-38ff-4497-bc19-593801afccc5/d5650c90-80e2-4a62-9769-29a8f78adcb5"
-					(reference "D12")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -1393,7 +1393,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3cb22b4-baa0-482c-9e70-ebc017d99cf2")
-		(property "Reference" "D11"
+		(property "Reference" "D13"
 			(at 140.97 90.4874 90)
 			(effects
 				(font
@@ -1447,11 +1447,11 @@
 		(instances
 			(project ""
 				(path "/eb904614-38ff-4497-bc19-593801afccc5/20720b4c-26bd-4017-891c-b78b41525f4b"
-					(reference "D11")
+					(reference "D13")
 					(unit 1)
 				)
 				(path "/eb904614-38ff-4497-bc19-593801afccc5/d5650c90-80e2-4a62-9769-29a8f78adcb5"
-					(reference "D13")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -1467,7 +1467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9fa986c-c27c-4e92-a288-ff2f80fb15b5")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR061"
 			(at 140.97 76.2 0)
 			(effects
 				(font
@@ -1517,11 +1517,11 @@
 		(instances
 			(project ""
 				(path "/eb904614-38ff-4497-bc19-593801afccc5/20720b4c-26bd-4017-891c-b78b41525f4b"
-					(reference "#PWR064")
+					(reference "#PWR061")
 					(unit 1)
 				)
 				(path "/eb904614-38ff-4497-bc19-593801afccc5/d5650c90-80e2-4a62-9769-29a8f78adcb5"
-					(reference "#PWR066")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
