@@ -1561,16 +1561,16 @@
 		(uuid "5054bf52-ac22-4c95-a5bc-456af01f6abe")
 	)
 	(junction
-		(at 149.86 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a4de34f-fa33-45e4-bb46-eb919d09739e")
-	)
-	(junction
 		(at 149.86 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cde4f971-988f-46ed-b463-5ec51adf02c6")
+		(uuid "5dea4f51-6d8b-4876-abfa-6effdb10dce2")
+	)
+	(junction
+		(at 149.86 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b62fd856-3823-4ebc-b5cb-f9c0b86fa330")
 	)
 	(junction
 		(at 106.68 74.93)
@@ -1632,6 +1632,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 46.99) (xy 149.86 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14e02146-86b7-4e57-91ba-a8986dbabcf1")
+	)
+	(wire
+		(pts
 			(xy 149.86 44.45) (xy 149.86 46.99)
 		)
 		(stroke
@@ -1672,13 +1682,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 46.99) (xy 149.86 46.99)
+			(xy 147.32 54.61) (xy 149.86 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a4604ad-e90c-4415-9cac-01fbf85b5724")
+		(uuid "3bb12924-5029-4743-99a7-a3e1afc35318")
 	)
 	(wire
 		(pts
@@ -1708,7 +1718,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "587452f0-27f8-4155-af6b-86ccacd47e87")
+		(uuid "5aec872d-e95a-442d-adce-8dfbb9276f52")
 	)
 	(wire
 		(pts
@@ -1719,16 +1729,6 @@
 			(type default)
 		)
 		(uuid "6bae8516-dca0-41e1-bcb8-1b59c84dca0a")
-	)
-	(wire
-		(pts
-			(xy 147.32 49.53) (xy 153.67 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c24bf32-1388-437c-acff-30e2c6842b05")
 	)
 	(wire
 		(pts
@@ -1799,6 +1799,16 @@
 			(type default)
 		)
 		(uuid "a20f8097-9cd6-4738-a89a-3919cb6ba72d")
+	)
+	(wire
+		(pts
+			(xy 147.32 49.53) (xy 153.67 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a29445c9-bd92-423a-978f-7ca267caace3")
 	)
 	(wire
 		(pts
@@ -1922,16 +1932,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 54.61) (xy 147.32 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8ee6cb7-1c7c-4818-b618-51a6a84d4e45")
-	)
-	(wire
-		(pts
 			(xy 137.16 101.6) (xy 137.16 106.68)
 		)
 		(stroke
@@ -1973,7 +1973,7 @@
 		)
 		(uuid "8cca20ca-03b6-479b-89bd-1d5cdf6c25b8")
 	)
-	(label "ENC_B"
+	(label "ENC_B_"
 		(at 121.92 100.33 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2006,7 +2006,7 @@
 		)
 		(uuid "adb139d8-08d0-418a-bcaa-963accedb953")
 	)
-	(label "ENC_B"
+	(label "ENC_B_"
 		(at 153.67 49.53 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2028,7 +2028,7 @@
 		)
 		(uuid "db1fceb0-9275-417c-b2ca-df8fa58bcc95")
 	)
-	(label "ENC_A"
+	(label "ENC_A_"
 		(at 121.92 97.79 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2050,7 +2050,7 @@
 		)
 		(uuid "fa733693-ecb3-4546-98dd-b7891a39d4aa")
 	)
-	(label "ENC_A"
+	(label "ENC_A_"
 		(at 153.67 52.07 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2061,7 +2061,7 @@
 		)
 		(uuid "fc7ae823-8655-47ae-bbfe-7ac6104b7602")
 	)
-	(hierarchical_label "ENC_B"
+	(hierarchical_label "ENC_A"
 		(shape input)
 		(at 101.6 52.07 180)
 		(fields_autoplaced yes)
@@ -2073,7 +2073,7 @@
 		)
 		(uuid "085a6fa2-641a-4278-9060-5652f13b5b6e")
 	)
-	(hierarchical_label "ENC_A"
+	(hierarchical_label "ENC_B"
 		(shape input)
 		(at 101.6 49.53 180)
 		(fields_autoplaced yes)
@@ -2717,7 +2717,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 142.24 49.53 0)
+		(at 142.24 52.07 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2725,14 +2726,6 @@
 		(dnp no)
 		(uuid "ab367486-618f-4808-83b7-47f67d43cbd1")
 		(property "Reference" "J7"
-			(at 136.652 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "enc_slave"
 			(at 136.652 52.07 0)
 			(effects
 				(font
@@ -2740,8 +2733,16 @@
 				)
 			)
 		)
+		(property "Value" "enc_slave"
+			(at 136.652 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "half_mouse_lib:enc_board"
-			(at 142.24 49.53 0)
+			(at 142.24 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2750,7 +2751,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 49.53 0)
+			(at 142.24 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2759,7 +2760,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 142.24 49.53 0)
+			(at 142.24 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
